@@ -51,7 +51,7 @@ void MidleAr (int[,] array)
        
     for (int j = 0; j < array.GetLength(1); j++)
     {
-        int mid = 0;
+        double mid = 0;
         for (int i = 0; i < array.GetLength(0); i++)
         {
         mid += array[i, j];

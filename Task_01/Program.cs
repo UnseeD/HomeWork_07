@@ -23,7 +23,7 @@ double[,] GetArray (int length, int secondLength)
     {
         for (int j = 0; j < secondLength; j++)
         {
-            array[i, j] = random.Next(-10, 10);
+            array[i, j] = random.NextDouble();
         }
     } 
     return array; 
